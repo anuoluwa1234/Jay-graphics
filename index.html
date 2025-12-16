@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnmary Obi | Graphic Design & Branding Specialist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <style>
+        /* Custom Font Application */
+        body { font-family: 'Montserrat', sans-serif; }
+        .py-6 { padding-top: 6rem !important; padding-bottom: 6rem !important; }
+
+        /* Customizing primary color (dark corporate blue) */
+        .btn-primary { 
+            --bs-btn-bg: #004c8c;
+            --bs-btn-border-color: #004c8c;
+            --bs-btn-hover-bg: #003a6b;
+            --bs-btn-hover-border-color: #003a6b;
+        }
+        .text-primary { color: #004c8c !important; }
+        .border-primary { border-color: #004c8c !important; }
+        .bg-primary-light { background-color: rgba(0, 76, 140, 0.05); }
+
+        /* Hero Section Styling (Tall, focused, and clean) */
+        #hero {
+            background-color: #f8f9fa; /* Light gray background */
+            padding-top: 10rem;
+            padding-bottom: 10rem;
+        }
+        
+        /* Card styling for service categories (with hover effect) */
+        .service-card {
+            border: none;
+            border-radius: 0.75rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.05);
+            border-bottom: 4px solid transparent; 
+        }
+        .service-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.1);
+            border-bottom-color: #004c8c; /* Highlight on hover */
+        }
+        
+        /* Icon styling */
+        .icon-box {
+            font-size: 2.5rem;
+            color: #004c8c;
+            margin-bottom: 0.75rem;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-5" href="index.html">J.C. OBI DESIGN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="text-center">
+        <div class="container">
+            <h1 class="display-1 fw-bolder text-dark mb-4" style="font-weight: 800;">
+                <span class="text-primary">Transforming Vision</span> into Reality.
+            </h1>
+            <p class="lead text-muted mx-auto mb-5" style="max-width: 700px;">
+                I am a professional Graphic Designer specializing in high-impact branding, flawless print production (Corel Draw), and expert digital content creation (Photoshop & Canva). Let's build your brand presence.
+            </p>
+            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                <a href="portfolio.html" class="btn btn-primary btn-lg rounded-pill px-5 fw-bold shadow-sm">View Portfolio &rarr;</a>
+                <a href="contact.html" class="btn btn-outline-dark btn-lg rounded-pill px-5 fw-bold shadow-sm">Get a Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 bg-primary-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-primary mb-2">My Focus</span>
+                <h2 class="display-6 fw-bold text-dark">Disciplines that Drive Results</h2>
+            </div>
+            
+            <div class="row g-4">
+                
+                <div class="col-md-4">
+                    <div class="card service-card p-4 h-100 text-center">
+                        <i class="bi bi-award-fill icon-box mx-auto"></i>
+                        <h4 class="fw-bold text-dark">Brand Identity</h4>
+                        <p class="text-muted small">Developing cohesive corporate identity systems, including logo design, stationery, and comprehensive brand guidelines using Corel Draw.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card service-card p-4 h-100 text-center">
+                        <i class="bi bi-printer-fill icon-box mx-auto"></i>
+                        <h4 class="fw-bold text-dark">Print & Packaging</h4>
+                        <p class="text-muted small">Creating print-ready files (CMYK) for flyers, brochures, vehicle wraps, and packaging, ensuring technical perfection for mass production.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card service-card p-4 h-100 text-center">
+                        <i class="bi bi-phone-fill icon-box mx-auto"></i>
+                        <h4 class="fw-bold text-dark">Digital Media</h4>
+                        <p class="text-muted small">Designing highly engaging social media graphics, web banners, and marketing ads, optimized for speed and maximum online conversion (Photoshop/Canva).</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="display-6 fw-bold text-dark mb-3">My Design Toolbox & Expertise</h2>
+                    <p class="lead text-secondary">My proficiency in these industry-standard tools ensures that your project receives the highest level of technical quality and creative execution.</p>
+                    <a href="services.html" class="btn btn-outline-dark mt-3 rounded-pill px-4 fw-bold">See All Services &rarr;</a>
+                </div>
+                
+                <div class="col-lg-6">
+                    <ul class="list-group list-group-flush border rounded-3 p-3 shadow-sm">
+                        <li class="list-group-item d-flex align-items-center p-3">
+                            <i class="bi bi-layers-fill text-primary me-3 fs-4"></i>
+                            <div>
+                                <h5 class="mb-0 fw-bold">Corel Draw Mastery</h5>
+                                <span class="text-muted small">Advanced vector creation, technical layout, and professional print production prepress.</span>
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center p-3">
+                            <i class="bi bi-camera-fill text-primary me-3 fs-4"></i>
+                            <div>
+                                <h5 class="mb-0 fw-bold">Adobe Photoshop</h5>
+                                <span class="text-muted small">Expert photo retouching, manipulation, color correction, and image compositing.</span>
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center p-3">
+                            <i class="bi bi-brush-fill text-primary me-3 fs-4"></i>
+                            <div>
+                                <h5 class="mb-0 fw-bold">Canva & Quick Graphics</h5>
+                                <span class="text-muted small">Rapid design for social media, presentations, and mockups requiring speed and brand consistency.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="bg-dark text-white py-5">
+        <div class="container text-center">
+            <h3 class="fw-bold mb-3">Ready to Start Your Project?</h3>
+            <p class="lead text-info mb-4">Let's connect and discuss how professional design can grow your business.</p>
+            <a href="contact.html" class="btn btn-info btn-lg rounded-pill px-5 fw-bold shadow">Contact Me Today &rarr;</a>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4 text-center">
+        <div class="container">
+            <p class="mb-1 small text-muted">&copy; 2025 Johnmary C. Obi Design. All Rights Reserved.</p>
+            <p class="mb-0 small">
+                <span class="text-info">Contact:</span> 
+                <a href="mailto:johnmaryobi9@gmail.com" class="text-info text-decoration-none">johnmaryobi9@gmail.com</a> 
+                | 
+                <a href="https://wa.me/2349048926887" class="text-info text-decoration-none" target="_blank">09048926887 (WhatsApp)</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
